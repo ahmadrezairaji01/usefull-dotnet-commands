@@ -1,4 +1,6 @@
-﻿rm -rf "$HOME/.dotnet"
+**Steps to install .NET SDKs**
+ 
+ rm -rf "$HOME/.dotnet"
 
 mkdir -p "$HOME/.dotnet"
 
@@ -27,7 +29,7 @@ EOF
 
 source ~/.bashrc
 
-----------------------------------------------------------------------------------
+**To use an SDK for a project**
 
 dotnet new globaljson --sdk-version 8.0.423
 
