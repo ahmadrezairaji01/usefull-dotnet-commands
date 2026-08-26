@@ -1,12 +1,12 @@
 **Steps to install .NET SDKs**
  
- rm -rf "$HOME/.dotnet"
+```rm -rf "$HOME/.dotnet"```
 
-mkdir -p "$HOME/.dotnet"
+```mkdir -p "$HOME/.dotnet"```
 
-curl -L https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh
+```curl -L https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh```
 
-chmod +x /tmp/dotnet-install.sh
+```chmod +x /tmp/dotnet-install.sh```
 
 /tmp/dotnet-install.sh \
     --channel 6.0 \
@@ -44,12 +44,3 @@ dotnet tool restore
 dotnet ef migrations add InitialCreate 
 
 dotnet ef database update
-
-
-
-
-
-
-```
-copy
-```
