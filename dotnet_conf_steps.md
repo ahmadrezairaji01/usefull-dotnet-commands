@@ -37,19 +37,23 @@ chmod +x /tmp/dotnet-install.sh
 ```
 cat >> ~/.bashrc <<'EOF'
 ```
-
-# .NET
+```
 export DOTNET_ROOT="$HOME/.dotnet"
 export PATH="$DOTNET_ROOT:$DOTNET_ROOT/tools:$PATH"
 EOF
+```
 
+```
 source ~/.bashrc
+```
 
 **To use an SDK for a project**
-
+```
 dotnet new globaljson --sdk-version 8.0.423
+```
 
-----------------------------------------------------------------------------------
+
+**To restore dotnet tools:**
 
 ```
 dotnet new tool-manifest
