@@ -1,26 +1,42 @@
 **Steps to install .NET SDKs**
  
-```rm -rf "$HOME/.dotnet"```
+```
+rm -rf "$HOME/.dotnet"
+```
 
-```mkdir -p "$HOME/.dotnet"```
+```
+mkdir -p "$HOME/.dotnet"
+```
 
-```curl -L https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh```
+```
+curl -L https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh
+```
 
-```chmod +x /tmp/dotnet-install.sh```
+```
+chmod +x /tmp/dotnet-install.sh
+```
 
+```
 /tmp/dotnet-install.sh \
     --channel 6.0 \
     --install-dir "$HOME/.dotnet"
+```
 
+```
 /tmp/dotnet-install.sh \
     --channel 8.0 \
     --install-dir "$HOME/.dotnet"
+```
 
+```
 /tmp/dotnet-install.sh \
     --channel 10.0 \
     --install-dir "$HOME/.dotnet"
+```
 
+```
 cat >> ~/.bashrc <<'EOF'
+```
 
 # .NET
 export DOTNET_ROOT="$HOME/.dotnet"
