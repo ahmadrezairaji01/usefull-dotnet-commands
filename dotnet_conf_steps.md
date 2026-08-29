@@ -1,4 +1,4 @@
-**Steps to install .NET SDKs**
+**Steps to install .NET SDKs:**
  
 ```
 rm -rf "$HOME/.dotnet"
