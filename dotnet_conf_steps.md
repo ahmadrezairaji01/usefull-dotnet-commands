@@ -17,21 +17,15 @@ chmod +x /tmp/dotnet-install.sh
 ```
 
 ```
-/tmp/dotnet-install.sh \
-    --channel 6.0 \
-    --install-dir "$HOME/.dotnet"
+/tmp/dotnet-install.sh --channel 6.0 --install-dir "$HOME/.dotnet"
 ```
 
 ```
-/tmp/dotnet-install.sh \
-    --channel 8.0 \
-    --install-dir "$HOME/.dotnet"
+/tmp/dotnet-install.sh --channel 8.0 --install-dir "$HOME/.dotnet"
 ```
 
 ```
-/tmp/dotnet-install.sh \
-    --channel 10.0 \
-    --install-dir "$HOME/.dotnet"
+/tmp/dotnet-install.sh --channel 10.0 --install-dir "$HOME/.dotnet"
 ```
 
 ```
