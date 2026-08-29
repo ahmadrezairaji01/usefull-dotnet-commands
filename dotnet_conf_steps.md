@@ -51,12 +51,23 @@ dotnet new globaljson --sdk-version 8.0.423
 
 ----------------------------------------------------------------------------------
 
-dotnet new tool-manifest 
+```
+dotnet new tool-manifest
+```
 
+```
 dotnet tool install dotnet-ef --version 8.*
+```
 
-dotnet tool restore 
+```
+dotnet tool restore
+```
 
-dotnet ef migrations add InitialCreate 
+**Migrations:**
+```
+dotnet ef migrations add InitialCreate
+```
 
+```
 dotnet ef database update
+```
